@@ -1,0 +1,14 @@
+Git workflow:
+1. clone
+2. pull
+3. repeat step 2
+
+Git notes
+
+dotnet commands
+1. How to create a new file and folder
+dotnet new console -o filename
+2. Run that file
+dotnet run -p filename1
+
+create an empy file

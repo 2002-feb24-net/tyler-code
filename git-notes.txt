@@ -1,0 +1,101 @@
+Git notes
+
+Day 1
+------------------------------------
+"-o" creates a new file and a new file
+"-p" runs the file
+
+Day 2 notes
+------------------------
+[command/program] (subcommands) (--option -one)
+mkdir
+dotnet
+git
+options start with "--" then - command
+shorter way -o
+-m "message"
+-o HelloWorld
+-option parameter
+dotnet new console
+--output-dir HelloWorld
+Learn each the commands
+Commands need to know
+
+rm -r
+pdg print where you are right now
+explorer new folder window
+explorer foldername
+".." parent directory
+../../notes navigatge to new folder
+. means current direcotry
+explorer .. opens up current direcotry
+
+"" just a way to let bash know
+which command
+which --version tells you which version of which you're running
+Run a command where it is
+which dontnet
+Path is enviroment variable affects the things that in the enviroment- like a start menu with a command line
+use echo to display path
+look up "$"
+Single quotes means to display something literal 'ABC' ABC
+Look up variables
+
+GREP command
+using ctr + c to stop
+send imput
+echo "some text" | grep text
+Look up "|"
+ls prints out the contents of a folder
+ls -1 on a new line
+ls -1 | grep o print all the file and folder names that "o"
+grep grep notes/bash-notes.txt
+
+Find command
+find ./notes/*.txt
+find . -name "*.txt"
+Know the difference find and grep
+
+cat
+cat filename prints all the contents of the file you've given
+
+echo "fun text" > file.txt
+use ">>" to add onto the end of file
+tab completion use tab
+
+.NET Notes
+------------------------
+.NET Framework 2002
+Linux reverse engineered Mono /Xamarin(mobile)
+.NET core 2016
+Things to do: Desktop apps, Widnows forms, WPF, connect databases using Entity Framework, web: ASP.NET AND WCF
+EF core (week 4) ASP.NET core (week 5)
+Rename in future .NET 5
+Decimal is used for percison, takes longer, uses up more storage
+
+
+Day 4
+--------------------------
+version control system (VCS)
+Source control managment (SCM) tool
+Keep track of different version
+Why is it useful
+Go back to earlier version when there is bug
+Start with the repository- folder tahat git takes control
+What makes it repository, is it has a git file inside of it
+repository
+    .git
+    other files
+Git workflow
+Step 1. Makes Changes to repository
+step 2. Record those Changes locally 2 commands git add <path>, git -m "Description"
+Most common for git add . "." means current direcotry
+Step 3. git push (Upload those chages to the romote) many different ex GitHub
+
+Problems in the push phase
+Solutions
+Copy any files you don't want to lose.
+Delete repository
+Clone
+Git status
+Google git origin
