@@ -23,7 +23,8 @@ namespace FizzBuzz
                     {
                         Console.Write("FizzBuzz, ");
                         sumBoth += 1;
-                    } else
+                    }
+                    else
                     {
                         Console.Write("Fizz, ");
                         sumFizz += 1;
