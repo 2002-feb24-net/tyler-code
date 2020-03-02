@@ -30,7 +30,8 @@ namespace FizzBuzz
                         sumFizz += 1;
                     }
                 }
-                else if(a % 5 == 0) {
+                else if(a % 5 == 0)
+                {
                     Console.Write("Buzz, ");
                     sumBuzz += 1;
                 }
