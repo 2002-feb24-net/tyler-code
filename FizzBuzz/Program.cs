@@ -6,6 +6,10 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
+            //Fizz = 267;
+            //Buzz = 134
+            //FizzBuzz = 66
+
             int a = 1;
             int sumFizz = 0;
             int sumBuzz = 0;
@@ -30,12 +34,6 @@ namespace FizzBuzz
                     sumBuzz += 1;
                 }
             }
-            
-            System.Console.WriteLine();
-            System.Console.WriteLine();
-            Console.WriteLine(sumFizz);
-            Console.WriteLine(sumBuzz);
-            Console.WriteLine(sumBoth);
         }
     }
 }
