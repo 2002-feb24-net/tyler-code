@@ -7,22 +7,35 @@ namespace FizzBuzz
         static void Main(string[] args)
         {
             int a = 1;
+            int sumFizz = 0;
+            int sumBuzz = 0;
+            int sumBoth = 0;
 
             for (a = 1; a <= 1000; a++)
             {
-
                 if(a % 3 == 0)
                 {
-                    Console.Write("Fizz, ");
+                    if((a % 3 == 0) && (a % 5 == 0))
+                    {
+                        Console.Write("FizzBuzz, ");
+                        sumBoth += 1;
+                    } else
+                    {
+                        Console.Write("Fizz, ");
+                        sumFizz += 1;
+                    }
                 }
                 else if(a % 5 == 0) {
                     Console.Write("Buzz, ");
-                }
-                else if((a % 3 == 0) && (a % 5 == 0))
-                {
-                    Console.Write("FizzBuzz");
+                    sumBuzz += 1;
                 }
             }
+            
+            System.Console.WriteLine();
+            System.Console.WriteLine();
+            Console.WriteLine(sumFizz);
+            Console.WriteLine(sumBuzz);
+            Console.WriteLine(sumBoth);
         }
     }
 }
