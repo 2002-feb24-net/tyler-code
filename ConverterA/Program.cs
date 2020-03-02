@@ -8,8 +8,25 @@ namespace ConverterA
         {
             Prompt();
             String mainA = Getinfo();
-            // System.Console.WriteLine(mainA);
             Convert(mainA);
+            String yOrN = YesOrNo(mainA);
+
+            switch(yOrN) {
+                case "yes":
+                case "Yes":
+
+                wh
+
+                break;
+                
+                case "no":
+                case "No":
+                Console.WriteLine("Good-bye");
+                break;
+                default:
+                Console.WriteLine("Sorry didn't catch that. Try again please");
+                break;
+            }
         }
 
         static void Prompt()
@@ -38,7 +55,18 @@ namespace ConverterA
                 sub = word.Substring(start, 1);
                 Console.Write(sub.ToUpper());
             }
+            System.Console.WriteLine();
             
         }
+
+        static String YesOrNo(String mainA) {
+            Console.WriteLine("Would you like to try another word?");
+            Console.Write("Enter Y for yes or N for no: ");
+            String userIn = Console.ReadLine();
+
+            return userIn;
+        }
+
+
     }
 }

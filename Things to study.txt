@@ -1,0 +1,74 @@
+Things to study
+
+Dev tools
+VS code
+Git
+Bash
+
+VS Code
+It gives autocomplete
+
+Git
+Keep track of the version of our code
+Most useful in a team enivorement
+Clone, pull, status, add, commit, push
+
+What do i use vs code
+How do use the termnal
+
+Bash and Git are not the same thning
+
+Bash - command line enivorement that is not with Git
+
+PWG- Print working direcory
+CD - move direcories
+Make a direcory mkdir
+CP - copy
+Which
+Grep- search through text
+Find - find the files themselves by name
+Echo
+Touch 
+Cat- print the contents of a file
+LS -list all the contents of the current direcory(arguments)
+| send ouput from command to another
+Redirect > overwrites a file
+Append >>
+PATH
+
+Relative paths and abosolute paths
+abosolute path: C/user/Nick/Desktop
+Relative Desktop or Desktop/ or ./Desktop or ~/Desktop
+cd / Root
+cd ../.. go up 2 parent direcories
+cd - back to the direcory you were in most recent
+. current
+.. parent
+ ~ home
+tab and double tab
+$ use the value of variable
+
+.NET
+C# is programming .NET platform that works with c#
+.NET SDK  tool that ueses V
+dotnet new
+dotnet run
+Multiple versions .NET Framework and new .NET core SDK
+Old is windows only
+New is cross platforms
+Types of values-int double, bool, long, short, arrays (void)
+Methods have parameters
+Value types and reference types - look up
+C# control flow- if /else
+for loop, while, do-while, foreach, switch
+Multi tab Alt + Shift + F
+
+Strings and arrays
+Strings .Length, [char] methods contains, index of, split, .toUpper, .toLower
+Array- create them, ways to to create them
+new int[5] or new int[] = {1,2,3}
+Loop over arrays using for loop
+
+Think about how you would solve some problems
+
+QC Practice
