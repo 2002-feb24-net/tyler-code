@@ -6,10 +6,18 @@ namespace ClassesAndObjects
     {
         public string ID{ get;}
         public string Owner{ get; set;}
+        
 
-        public decimal Balance{ get; }
+        public decimal Balance
+        {
+            get
+            {
+                decimal balance = 0;
+                foreach(var item in AllTransaction)
+            }
+        }
 
-        private static int accountNumberSeed = 1234567890;
+        private static int accountNumberSeed = 0000000001;
 
         public void MakeDeposit(decimal amount, DateTime date, string note)
         {
@@ -26,6 +34,8 @@ namespace ClassesAndObjects
             this.ID = accountNumberSeed.ToString();
             this.Owner = name;
             this.Balance = startBalance;
+
+            accountNumberSeed++;
         }
         
     }

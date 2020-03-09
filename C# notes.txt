@@ -1,0 +1,77 @@
+data and logic/ behavior are one
+
+Static
+does not require on object instance. one copy of that for the whole progroam
+
+non-static /instance
+exist on one particular object at a time
+
+Class members private by defaul. Can set them as public instead
+
+Imortant principle: dont repeat yourself  DRY
+
+Day 10
+-----------------
+
+Collections
+List vs Hash set
+
+List and Hash set - generic, can change size
+
+List - ordered, can have duplicates, based on Array, slow search
+
+Hash set - unordered, can't have duplicates, can't do sort, base on Hashtable
+Get it going, create Hash function, takes the element in Hash function gives a random instead
+Advantage is  enter something fast, fast to search, check membership, check is almost instantainous, search speed is (0, 1)
+Look up Hash function on Google
+Get hasCode function is the Hash function   
+
+Bubble sort
+Step 1: look at each consecutive particular
+step 2: swap them, if they are not in order
+Step 3: Rpeat step 1 and 2, until you go a whole pass without any changes
+
+Recursion method
+if problem is simple:
+    return answer directly
+else
+break down the problem somewhat
+somehow to a pieciesthat are cleser to the base case then to the one we have have right now
+Call this method again to solve that simplier case
+
+You use properies when you to other claases to ues the data but with some ristructon 
+public inti Rows
+{
+    get
+    {
+        return _rows
+    }
+
+    set
+    {
+        // inside a property setter, you have a special keyword "value
+        // which is what the code setting teh propery put to the right
+        //of the equals sign
+        int incoming value = value
+        Console.WriteLine("Settings Rows not allowed by)
+    }
+}
+
+Not a public field, but a public propery
+
+Look up propery, and var
+
+----------------------------------
+Big O
+searching an array for n value(average in the middle)
+foreach i up to n2
+if it's the one return 
+What does it look like on graph for average time and n2 known as O(n) linear
+Bubble sort
+It looks at pairs in array and if the second one is greater than the first one, it works O(N 2)
+while loop
+    inside is for loop 
+        O(N) 
+any time you have loop is linear is going to O(N2)
+3 nesteed loop is N3
+
