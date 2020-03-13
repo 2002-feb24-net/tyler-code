@@ -21,33 +21,42 @@ namespace PersonList
             ListofPeople.Add(person3);
             ListofPeople.Add(person4);
             ListofPeople.Add(person5);
+            
 
             System.Console.WriteLine("Here is a list of people");
+            DisplayList(ListofPeople);
+            System.Console.WriteLine();
+            System.Console.WriteLine();
             
 
             mainDuplicate = CheckDuplicate(ListofPeople);
 
-            // if(mainDuplicate == true)
-            // {
-            //     Console.WriteLine("This list has a duplicate");
-            // }
-            // else
-            // {
-            //     System.Console.WriteLine("This list does not has duplicate");
-            // }
+            if(mainDuplicate == true)
+            {
+                Console.WriteLine("This list has a duplicate");
+            }
+            else
+            {
+                System.Console.WriteLine("This list does not has duplicate");
+            }
+
+            DisplayList(insertSort(ListofPeople));
         }
 
         static bool CheckDuplicate(List<dynamic> ListofPeople)
         {
             bool hasDuplicate = false;
             int a = 0;
+            int e = 0;
 
             for (a = 0; a < ListofPeople.Count; a++)
             {
-                if(ListofPeople[a].Contains(ListofPeople[a]))
+                for()
+                if(ListofPeople.Group(ListofPeople[a]))
                 {
                     hasDuplicate = true;
                 }
+            
             }
 
             return hasDuplicate;
@@ -83,7 +92,23 @@ namespace PersonList
 
         static List<dynamic> InsertByShift(List<dynamic> ListofPeople)
         {
-            inti
+            int c = 0;
+
+            for (c = 0; c < ListofPeople.Count; c++)
+            {
+                int d = 0;
+                var insertionValue = ListofPeople[c];
+                for (d = c; d > 0; d--)
+                {
+                    if(ListofPeople[d -1] > insertionValue)
+                    {
+                        ListofPeople[d] = ListofPeople[d - 1];
+                    }
+                } 
+                ListofPeople[d] = insertionValue;
+            }
+
+            return ListofPeople;
         }
 
         static void Swap(List<dynamic> ListofPeople, int b)

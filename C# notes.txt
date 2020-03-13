@@ -75,3 +75,4 @@ while loop
 any time you have loop is linear is going to O(N2)
 3 nesteed loop is N3
 
+    

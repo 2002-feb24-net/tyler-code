@@ -70,5 +70,3 @@ new int[5] or new int[] = {1,2,3}
 Loop over arrays using for loop
 
 Think about how you would solve some problems
-
-QC Practice
