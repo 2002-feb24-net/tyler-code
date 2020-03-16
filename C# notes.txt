@@ -75,4 +75,84 @@ while loop
 any time you have loop is linear is going to O(N2)
 3 nesteed loop is N3
 
-    
+static - doesn't require an object 
+modifiers in a class and members ex anything that goes inside a a class
+
+                 class                                   members
+stataic          containers for stataic  members         only 
+
+static class can only contain staic members
+helper method could be static or non-static
+abstract classs and abstract members ex properties
+virtual- no on class, yes on members
+override the same as virtual
+
+
+
+virtual means that allows to be overriden by a child class
+
+
+
+interface being refenced by a class
+non-abstract classes to a class
+abstract base class to class you're going to inheirt, leave some things unherited
+void x()
+Overriding has to be explixict
+sealed yes on class, and yes on members
+can't inheirt from a sealed class, prevent unexpected things
+mehtods are non virtual 
+virtual child class
+override by parent class, to prevent any other class, put sealed keyword
+
+partial yes on class and memebers
+
+part of your codes written by code part class is written by code
+part 2 is written by human and they can be put togetherr
+part 1 is would be overwritten
+
+new modifier goes on with with virtual overriden
+
+Const no on class, yes on members
+const means constant only primative
+readonly no on class, yes on members
+
+readonly list
+give it a value before the end of a constructor
+
+serialization
+takes memeory , stac, and heap arrange in a nice row  ex 00100010110
+Custom binary format, XML, JSON
+Take objects to serialize  it JSON string, write it to a field
+Read from the file Deserialization  or parsing, we C# objects
+Looking at the JSON and the classes
+try the block of code
+if no exception then proceed to the finally
+else run the catch, then the finally
+if unhandled  exception then finally, and the exception runs higher then crashes
+
+Downloading (network, slow)
+Disk I/O (slow)
+The compupter switches between waiting and Downloading
+While downloading one thing, setup another downloading
+-thread
+use a thread pool where things are waiting to download
+We use task which is running one operation while one thing is downloading
+Good code is Async
+
+non-Async
+void -> task
+anything else -> Task<anything-else>
+
+Async readfrom end of file
+await the file
+Convert to Async
+
+Encapsolution-budle data and behavior into an object, and no one can bypass those object's rules
+A good programmer wirtes his or her own test
+
+Unit Testing - testing the smallest unit of code/behavior independent - just test a perticular method
+benefits of unit testing is you know which one doesn't work
+integration testing
+Use unit testing
+Third-party unit testing XUnit, NUnit, MS MSTest
+use XUnit
