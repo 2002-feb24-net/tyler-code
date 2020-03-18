@@ -6,6 +6,6 @@ namespace Palindrome
 {
     interface IIsPalindrome
     {
-        public bool IsPalindrome(string string1, string string2);
+        public bool IsPalindrome();
     }
 }
