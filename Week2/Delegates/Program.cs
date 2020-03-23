@@ -6,10 +6,16 @@ namespace Delegates
     {
         static void Main(string[] args)
         {
-            string name = "";
+            var videoMain = new Video() {Title = "My video"};
+            var encodeObj = new VideoEnconder(); //publisher
+            var service = new MailService(); //Subscriber
+            var text = new MessageService(); //subscriber
+
+            encodeObj.VideoEncoded += text.OnVideoEncoded;
+            encodeObj.VideoEncoded += service.OnVideoEncoded;
+
+            encodeObj.Enconde(videoMain);
 
         }
-
-        s1
     }
 }
